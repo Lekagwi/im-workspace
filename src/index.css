@@ -1,51 +1,15 @@
-/* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
 
-/* CSS Variables */
-:root{
-  --bg:#0F172A;
-  --sidebar:#111827;
-  --card:#1E293B;
-
-  --primary:#E42527;
-  --primary-hover:#C71E20;
-
-  --text:#F8FAFC;
-  --text-light:#CBD5E1;
-
-  --border:#334155;
-
-  --radius:16px;
-}
-
-/* Reset */
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+html,
+body,
+#root {
+  height: 100%;
 }
 
 body{
-
-  font-family:"Inter",sans-serif;
-
-  background:var(--bg);
-
-  color:var(--text);
-
-}
-
-a{
-
-  text-decoration:none;
-
-  color:inherit;
-
-}
-
-button{
-
-  font-family:inherit;
-
+  margin:0;
+  background:#020617;
+  color:white;
+  font-family:'Inter',sans-serif;
 }
